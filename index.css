@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+}
+
+body.container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+h1 {
+    width: fit-content;
+    margin: 1em auto;
+    border: 10px solid white;
+    border-radius: 35px;
+    font-size: 6.5rem;
+    font-family: 'Lobster', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    text-align: center;
+    padding: 0.1em 0.5em;
+    background-color: rgb(56, 76, 255);
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+
+nav ul {
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 0;
+    width: fit-content;
+    margin: 1em auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+nav li {
+    /* border-radius: 4px; */
+    list-style: none;
+    width: fit-content;
+    padding: 0.5em;
+    /*  margin: 0.25em; */
+}
+
+nav li:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+nav li:hover a {
+    color: rgb(56, 76, 255);
+}
+
+header,
+footer {
+    background-color: rgb(56, 76, 255);
+}
+
+main {
+    background-color: rgb(20, 20, 20);
+}
+
+main.container {
+    min-height: 100%;
+}
+
+section {
+    width: 80%;
+    max-width: 960px;
+    margin: 1em auto;
+}
+
+.landing-hero {
+    padding: 1em;
+    background-color: rgb(20, 20, 20);
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.25em;
+}
+
+img {
+    width: 100px;
+    object-fit: cover;
+}
+
+.projects-display-area {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.project-component {
+    width: 100%;
+    min-width: 250px;
+    max-width: 350px;
+    border: 5px solid white;
+    border-top: 20px solid white;
+    margin: 1em;
+    padding: 0.25em;
+    border-radius: 15px;
+    background-color: rgb(56, 76, 255);
+}
+
+.project-component a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 90%;
+    margin: 1em auto;
+    /* border: 1px red solid; */
+}
+
+.project-component:hover {
+    background: rgb(82, 98, 248)
+}
+
+.project-component img {
+    display: block;
+    width: 100%;
+    max-height: 200px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.699);
+}
