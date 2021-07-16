@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
 * {
     box-sizing: border-box;
 }
@@ -37,6 +36,10 @@ h1 {
     text-align: center;
     padding: 0.1em 0.5em;
     background-color: rgb(56, 76, 255);
+}
+
+p {
+    line-height: 1.5;
 }
 
 nav a {
@@ -136,7 +139,6 @@ img {
     display: block;
     width: 90%;
     margin: 1em auto;
-    /* border: 1px red solid; */
 }
 
 .project-component:hover {
