@@ -1,7 +1,7 @@
-# TC2021WDB
+# FrontendWorks by Serda Simus
 
 ## What is it?
-The Complete 2021 Web Development Bootcamp
+A portfolio of my projects and journey as a web developer.
 
 ## Where is the Link
 <a href="https://iamserda.github.io/TC2021WDB/" target="_blank">The Complete 2021 </a>
